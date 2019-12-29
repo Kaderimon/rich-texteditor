@@ -1,0 +1,12 @@
+.rte-toolbar {
+  &__button {
+    width: 30px;
+    height: 30px;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    &_active {
+      color: dodgerblue;
+    }
+  }
+}

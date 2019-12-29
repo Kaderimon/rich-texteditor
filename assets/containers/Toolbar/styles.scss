@@ -1,0 +1,12 @@
+.rte {
+  &-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    &-default {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+}

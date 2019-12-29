@@ -1,0 +1,30 @@
+@mixin text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.rte {
+  &-wrapper {
+    margin: 100px auto;
+    max-width: 1000px;
+  }
+  &-toolbar,
+  &-editor {
+    border: 1px solid black;
+  }
+  &-editor {
+    border-top: 0;
+  }
+  &-frame {
+    width: 100%;
+  }
+}
+
+.dropdown-close {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px
+}
